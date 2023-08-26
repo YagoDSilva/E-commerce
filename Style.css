@@ -68,7 +68,7 @@ header{
 
 .Meio{
     margin: 1rem 1rem 1rem 1rem;
-    padding: 7rem 0 0 8. 5rem;
+    padding: 4.5rem 0 5rem;
     line-height: 4rem;
 }
 
@@ -186,7 +186,51 @@ section h1{
     height: auto;
 }
 
+.marcas{
+    margin-top: 10rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
 .Marcas img{
     width: 180px;
     height: auto;
+    background-color: aliceblue;
+}
+
+.Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.meio-contato li a{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: 0.35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color:#fff;
 }
